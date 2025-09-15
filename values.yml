@@ -327,9 +327,7 @@ nodeSelector: {}
 
 tolerations: []
 
-topologySpreadConstraints: []
-
-affinity: 
+topologySpreadConstraints: 
 - maxSkew: 1
   minDomains: 2
   topologyKey: "topology.kubernetes.io/hostname"
@@ -338,6 +336,8 @@ affinity:
     matchLabels:
       app.kubernetes.io/instance: "openfga"
       app.kubernetes.io/name: "openfga"
+
+affinity: {}
 
 # @param sidecars Add additional sidecar containers to the pods
 # Example:
