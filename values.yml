@@ -317,7 +317,7 @@ resources: {}
 lifecycle: {}
 
 autoscaling:
-  enabled: false
+  enabled: true
   minReplicas: 2
   maxReplicas: 100
   targetCPUUtilizationPercentage: 80
