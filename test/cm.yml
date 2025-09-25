@@ -3,5 +3,7 @@ kind: ConfigMap
 metadata:
   name: test-cm
   namespace: dynatrace
+  annotations:
+    argocd.argoproj.io/sync-wave: "1" 
 data:
   REMOTE_HOST: "dynatrace-host"
