@@ -83,7 +83,7 @@ webhook:
   limits:
     cpu: 300m
     memory: 128Mi
-  highAvailability: false
+  highAvailability: true
   validatingWebhook:
     timeoutSeconds: 10
   mutatingWebhook:
