@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: swagger-ui
-        image: swaggerapi/swagger-ui:prueba-1
+        image: swaggerapi/swagger-ui
         env:
         - name: BASE_URL
           value: /test/swagger
